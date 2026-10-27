@@ -151,3 +151,5 @@ Append `/actuator/health` to the returned URL to verify the application health. 
 - Verified that zero and negative booking quantities are rejected at the service and API levels.
 - Added API tests verifying successful bookings return HTTP 201 Created and invalid quantities return HTTP 400 Bad Request.
 - Added a Java 17 Docker image build and Kubernetes Deployment and Service configurations.
+
+CI trigger test — GitHub push
